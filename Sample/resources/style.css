@@ -1,0 +1,861 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Proza Libre:400,700');
+
+.search-input {
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.home-slide .owl-carousel .item {
+    height: 100vh;
+}
+
+    .home-slide .owl-carousel .item.item1 {
+        /*background: url(../IMAGES/Main_Slider/CatCo_SocialDistancing_V3.gif) no-repeat center center;*/
+        background: url(../IMAGES/Main_Slider/1.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .home-slide .owl-carousel .item.item2 {
+        background: url(../IMAGES/Main_Slider/2.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .home-slide .owl-carousel .item.item3 {
+        background: url(../IMAGES/Main_Slider/3.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .home-slide .owl-carousel .item.item4 {
+        background: url(../IMAGES/Main_Slider/4.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .home-slide .owl-carousel .item.item5 {
+        background: url(../IMAGES/Main_Slider/5.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .home-slide .owl-carousel .item.item6 {
+        background: url(../IMAGES/Main_Slider/6.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .home-slide .owl-carousel .item.item7 {
+        background: url(../IMAGES/Main_Slider/7.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .home-slide .owl-carousel .item.item8 {
+        background: url(../IMAGES/Main_Slider/8.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .home-slide .owl-carousel .item.item9 {
+        background: url(../IMAGES/Main_Slider/9.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .home-slide .owl-carousel .item.item10 {
+        background: url(../IMAGES/Main_Slider/10.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .home-slide .owl-carousel .item.item11 {
+        background: url(../IMAGES/Main_Slider/11.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .home-slide .owl-carousel .item.item12 {
+        background: url(../IMAGES/Main_Slider/12.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .home-slide .owl-carousel .item.item13 {
+        background: url(../IMAGES/Main_Slider/13.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+header .dropdown-toggle::after {
+    content: none;
+    border: none;
+}
+
+header .dropdown-menu {
+    top: 85%;
+}
+
+body {
+    font-family: 'Proza Libre', sans-serif;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+    select::-ms-expand { /* for IE 11 */
+        display: none;
+    }
+
+select {
+    background: url(../images/drop-down-arrow.png) no-repeat center right 3px;
+}
+
+/*.form-control {
+    border-radius: 0;
+}*/
+
+.bg-primary {
+    background-color: #0490c7 !important;
+}
+
+/*
+.btn {
+    border-radius: 0;
+}
+
+.btn-primary {
+    border-color: #0490c7;
+    background-color: #0490c7;
+}
+
+    .btn-primary:hover, .btn-primary:focus {
+        border-color: #0062bd;
+        background: #0062bd;
+    }*/
+
+.white {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    border-right: 1px solid #fff;
+    padding: 0 0.7rem;
+}
+
+    .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+        text-decoration: underline;
+    }
+
+    .navbar-dark .navbar-nav .nav-link.search-icn {
+        padding: 0 2rem;
+        border-right: none;
+    }
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.home-slide {
+    position: relative;
+}
+
+.hm-form {
+    padding: 1rem;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 1;
+    width: 320px;
+    /*max-width: 320px;*/
+    /*margin-top: 100px;*/
+}
+
+    .hm-form .form-control, .hm-form select.form-control {
+        padding: .1rem .75rem;
+        font-size: 0.75rem;
+    }
+
+        .hm-form select.form-control:not([size]):not([multiple]) {
+            height: calc(1.25rem - 20px);
+        }
+
+    .hm-form label {
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 0.75rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .hm-form hr {
+        border-color: #fff;
+    }
+
+    .hm-form .btn {
+        font-size: 0.75rem;
+        display: inline-block;
+        text-align: center;
+        margin: 0 1%;
+        padding: .175rem .75rem;
+    }
+
+    .hm-form .form-check {
+        min-width: 25%;
+    }
+
+.sales-activity {
+    border-top: 15px solid #000;
+}
+
+    .sales-activity .owl-carousel .owl-nav button.owl-prev, .sales-activity .owl-carousel .owl-nav button.owl-next {
+        position: absolute;
+        top: 30%;
+        color: #fff;
+        font-size: 3rem;
+    }
+
+    .sales-activity .owl-carousel .owl-nav button.owl-prev {
+        left: 20px;
+    }
+
+    .sales-activity .owl-carousel .owl-nav button.owl-next {
+        right: 20px;
+    }
+    /*.sales-activity .owl-carousel .item:hover {
+	opacity: 0.9;
+	transition: all 0.3s ease-in-out;
+}*/
+    .sales-activity .owl-carousel .item h4 {
+        position: absolute;
+        bottom: 10px;
+        border-top: 1px solid #fff;
+        color: #fff;
+        width: 90%;
+        margin: 0 5%;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 50px;
+        text-transform: uppercase;
+    }
+
+        .sales-activity .owl-carousel .item h4 a {
+            color: #fff;
+        }
+
+.charter-activity {
+    border-top: 5px solid #fff;
+    background: #202020;
+    padding-bottom: 1rem;
+}
+
+    .charter-activity h2 {
+        color: #fff;
+        background: #000;
+    }
+
+    .charter-activity .owl-carousel .owl-nav button.owl-prev, .charter-activity .owl-carousel .owl-nav button.owl-next {
+        position: absolute;
+        top: 30%;
+        color: #fff;
+        font-size: 3rem;
+    }
+
+    .charter-activity .owl-carousel .owl-nav button.owl-prev {
+        left: -30px;
+    }
+
+    .charter-activity .owl-carousel .owl-nav button.owl-next {
+        right: -30px;
+    }
+
+    .charter-activity .owl-carousel .item:hover {
+        opacity: 0.85;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .charter-activity .owl-carousel .item h4 {
+        font-weight: normal;
+        font-size: 1rem;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        margin-top: 10px;
+    }
+
+        .charter-activity .owl-carousel .item h4 a {
+            color: #fff;
+        }
+
+ul.location-list {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-right: 5%;
+}
+
+    ul.location-list li {
+        border-bottom: 1px solid #ccc;
+        padding: 0.2rem;
+        color: #666;
+        font-size: 0.8rem;
+    }
+
+ul.signup-hm {
+    margin-top: 3rem;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 0 0.5rem;
+}
+
+    ul.signup-hm li {
+        width: 42%;
+        display: inline-block;
+        margin: 0 2%;
+        vertical-align: top;
+    }
+
+        ul.signup-hm li:last-child {
+            width: 48%;
+        }
+
+        ul.signup-hm li:hover {
+            opacity: 0.9;
+        }
+
+/*        ul.signup-hm li .btn {
+            border-radius: 10px;
+            background: #0062bd;
+            border: none;
+            font-size: 0.8rem;
+            padding: 0.3rem 1rem;
+        }*/
+
+.news {
+    margin: 3rem 0 0 5%;
+    width: 45%;
+    float: left;
+}
+
+    .news ul li {
+        margin-bottom: 1rem;
+        line-height: 1.2rem;
+        min-height: 80px;
+    }
+
+        .news ul li .figure {
+            float: left;
+            margin-right: 3%;
+        }
+
+            .news ul li .figure:hover {
+                opacity: 0.9;
+            }
+
+        .news ul li .figure-caption {
+            font-size: 75%;
+            color: #0062bd;
+        }
+
+    .news h4 {
+        font-size: 1rem;
+        border-bottom: 1px solid #ccc;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+        position: relative;
+    }
+
+        .news h4 span {
+            width: 80px;
+            height: 3px;
+            background: #fed700;
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+        }
+
+.video-wrap .embed-responsive {
+    border: 20px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top, #ccc 0%, #000 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #ccc 0%, #000 100%);
+    border-image: linear-gradient(to bottom, #ccc 0%, #000 100%);
+    border-image-slice: 1;
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.75);
+}
+
+.clients .owl-centered .owl-wrapper {
+    display: table !important;
+}
+
+.clients .owl-centered .owl-item {
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+    padding: 0 15px;
+}
+
+    .clients .owl-centered .owl-item > div {
+        text-align: center;
+    }
+
+.clients .owl-carousel .owl-nav button.owl-prev, .clients .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 10%;
+    color: #333;
+    font-size: 3rem;
+}
+
+.clients .owl-carousel .owl-nav button.owl-prev {
+    left: -30px;
+}
+
+.clients .owl-carousel .owl-nav button.owl-next {
+    right: -30px;
+}
+
+.upcoming-events h2 {
+    background: #c7c7c7;
+    margin-bottom: 0;
+}
+
+.newsletter {
+    background: #0490c7;
+    padding: 0.5rem 0;
+    color: #fff;
+}
+
+    .newsletter h4 {
+        font-weight: normal;
+        margin-top: 0.6rem;
+    }
+
+        .newsletter h4 span {
+            font-size: 60%;
+            margin-left: 2rem;
+        }
+
+        .newsletter h4 i {
+            color: #324049;
+        }
+
+    .newsletter .form-control {
+        background: rgba(255, 255, 255, 1);
+        border-color: transparent;
+        border-radius: 30px 0 0 30px;
+    }
+
+        .newsletter .form-control:focus {
+            box-shadow: none;
+            border-color: #243c4f;
+        }
+
+    .newsletter .btn {
+        border-radius: 0 30px 30px 0;
+        background: #343e48;
+        color: #fff;
+    }
+
+footer {
+    background: #f8f8f8;
+}
+
+    footer ul li {
+        color: #666;
+        font-size: 0.85rem;
+        line-height: 2rem;
+    }
+
+        footer ul li strong {
+            color: #333;
+        }
+
+        footer ul li a {
+            color: #666;
+            font-size: 0.85rem;
+            text-decoration: none;
+            background-color: transparent;
+        }
+/*
+a {
+    color: #0490c7;
+    text-decoration: none;
+    background-color: transparent;
+}*/
+
+.copyrite {
+    color: #666;
+    background: #eaeaea;
+    font-size: 0.85rem;
+    padding: 1rem
+}
+
+    .copyrite a {
+        color: #666;
+        margin: 1rem;
+        font-size: 1.4rem;
+    }
+
+        .copyrite a:hover {
+            color: #0490c7;
+        }
+
+
+/*masood*/
+.dropdown-menu {
+    background-color: #0490c7;
+    border-radius: 0rem;
+}
+
+    .dropdown-menu a {
+        font-size: 0.7rem;
+        color: #fff;
+    }
+
+.overlay_banner {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    opacity: 1;
+}
+
+.item:hover .overlay {
+    opacity: 0;
+}
+
+
+@media only screen and (min-width: 993px) {
+    .dropdown:hover > .dropdown-menu {
+        display: block;
+    }
+
+    .dropdown > .dropdown-toggle:active {
+        /*Without this, clicking will make it sticky*/
+        pointer-events: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 998px) {
+    .hm-form {
+        position: absolute;
+        width: 80%;
+        left: 10%;
+        right: 10%;
+        top: 0px;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .hm-form {
+        position: absolute;
+        width: 80%;
+        left: 10%;
+        right: 10%;
+        top: 0px;
+        margin-top: 100px;
+    }
+
+    ul.signup-hm li {
+        width: 100%;
+        margin: 0 0 1rem 0;
+    }
+
+        ul.signup-hm li:last-child {
+            width: 100%;
+            margin: 0;
+        }
+
+    .copyrite {
+        font-size: 0.8rem;
+    }
+
+        .copyrite a {
+            margin: 0.6rem;
+        }
+
+    .news {
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .newsletter h4 {
+        font-size: 1.2rem;
+    }
+
+        .newsletter h4 span {
+            margin-left: 0;
+            display: block;
+        }
+
+    .home-slide .owl-carousel .item {
+        height: 980px;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        border-right: none;
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    .navbar-dark .navbar-toggler {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .navbar-brand {
+        margin: 0 auto;
+    }
+
+    .sales-activity .owl-carousel .owl-nav button.owl-prev, .sales-activity .owl-carousel .owl-nav button.owl-next {
+        font-size: 1.6rem;
+        top: 33%;
+    }
+
+    .sales-activity .owl-carousel .item h4 {
+        line-height: 30px;
+        font-size: 0.7rem;
+    }
+
+    .charter-activity .owl-carousel .item h4 {
+        font-size: 0.7rem;
+    }
+
+    .charter-activity .owl-carousel .owl-nav button.owl-prev, .charter-activity .owl-carousel .owl-nav button.owl-next {
+        font-size: 1.6rem;
+    }
+
+    .location-wrap .pl-5, .location-wrap .pr-5 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .newsletter {
+        text-align: center;
+    }
+
+        .newsletter .pl-5, .newsletter .pr-5 {
+            padding-left: 1rem !important;
+            padding-right: 1rem !important;
+        }
+
+    ul.location-list {
+        margin-right: 0;
+    }
+
+    footer ul li a {
+        font-size: 0.7rem;
+    }
+
+    footer ul li {
+        line-height: 1.6rem;
+        font-size: 0.75rem;
+    }
+
+    .copyrite {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+        .copyrite a {
+            font-size: 1rem;
+        }
+
+    .mob-text-center {
+        text-align: center;
+    }
+
+    .hm-form .btn {
+        width: 100%;
+        margin: 1%;
+    }
+
+    .hm-form .form-inline label {
+        min-width: 30px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+}
+
+@media only screen and (min-width : 500px) and (max-width : 1920px) {
+    .hm-form {
+        position: absolute;
+        width: 356px;
+        left: 10%;
+        right: 10%;
+        top: 0px;
+        margin-top: 100px;
+    }
+}
+
+
+.br0 {
+    border-right: 0px !important;
+}
+
+a.HoverClass:hover {
+    color: #ffffff;
+    background-color: #0390c7;
+    font-size: 15px;
+    z-index: 999;
+    text-decoration: none;
+    padding: 10px;
+}
+
+        /* GLOBAL STYLES
+-------------------------------------------------- */
+        /* Padding below the footer and lighter body text */
+
+        body {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            color: #5a5a5a;
+        }
+
+
+        /* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+        /* Carousel base class */
+/*        .carousel {
+            margin-bottom: 4rem;
+        }
+*/        /* Since positioning the image, we need to help out the caption */
+        .carousel-caption {
+            bottom: 3rem;
+			right: 2rem;
+            z-index: 10;
+        }
+
+        /* Declare heights because of positioning of img element 
+        .carousel-item {
+            height: 40rem;
+        }*/
+
+
+        /* MARKETING CONTENT
+-------------------------------------------------- */
+
+        /* Center align the text within the three columns below the carousel */
+        .marketing .col-lg-4 {
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+            /* rtl:begin:ignore */
+            .marketing .col-lg-4 p {
+                margin-right: .75rem;
+                margin-left: .75rem;
+            }
+        /* rtl:end:ignore */
+
+
+        /* Featurettes
+------------------------- */
+
+        .featurette-divider {
+            margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+        }
+
+        /* Thin out the marketing headings */
+        /* rtl:begin:remove */
+        .featurette-heading {
+            letter-spacing: -.05rem;
+        }
+
+        /* rtl:end:remove */
+
+        /* RESPONSIVE CSS
+-------------------------------------------------- */
+
+        @media (min-width: 40em) {
+            /* Bump up size of carousel content */
+            .carousel-caption p {
+                margin-bottom: 1.25rem;
+                font-size: 1.25rem;
+                line-height: 1.4;
+            }
+
+            .featurette-heading {
+                font-size: 50px;
+            }
+        }
+
+        @media (min-width: 62em) {
+            .featurette-heading {
+                margin-top: 7rem;
+            }
+        }
+
+    
